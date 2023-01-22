@@ -6,7 +6,7 @@ import Layout from './components/Layout'
 // import Portfolio from './components/Portfolio'
 // import Dashboard from './components/Dashboard'
 import './App.scss'
-
+import './config.js'
 
 
 function App() {

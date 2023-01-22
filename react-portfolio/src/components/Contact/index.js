@@ -2,6 +2,7 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
+import '../config.js'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -17,7 +18,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('service_vjdohgg', 'template_3k9u3t8', refForm.current, 'Sn6nE-2SMc85qG5kY')
+      .sendForm('ID', 'TEMPLATE', refForm.current, 'API')
       .then(
         () => {
           alert('Message successfully sent!')

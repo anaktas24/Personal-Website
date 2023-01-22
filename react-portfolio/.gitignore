@@ -10,6 +10,11 @@
 
 # production
 /build
+config.js
+ID = 'service_vjdohgg'
+TEMPLATE = 'template_3k9u3t8'
+API = 'Sn6nE-2SMc85qG5kY
+
 
 # misc
 .DS_Store
