@@ -27,25 +27,27 @@ const Contact = () => {
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
-        </div>
-        <div className='contact-form'>
-          <ul>
-            <li className='half'>
-              <input type='text' name='name' placeholder='Name' required/>
-            </li>
-            <li className='half'>
-              <input type='email' name='email' placeholder='Email' required/>
-            </li>
-            <li>
-              <input type='text' name='subject' placeholder='Subject' required/>
-            </li>
-            <li>
-              <textarea placeholder='Message' name='message' required> </textarea>
-            </li>
-            <li>
-              <input type='submit' className='flat-button' value='SEND'/>
-            </li>
-          </ul>
+          <div className='contact-form'>
+            <form>
+              <ul>
+                <li className='half'>
+                  <input type='text' name='name' placeholder='Name' required/>
+                </li>
+                <li className='half'>
+                  <input type='email' name='email' placeholder='Email' required/>
+                </li>
+                <li>
+                  <input type='text' name='subject' placeholder='Subject' required/>
+                </li>
+                <li>
+                  <textarea placeholder='Message' name='message' required> </textarea>
+                </li>
+                <li>
+                  <input type='submit' className='flat-button' value='SEND'/>
+                </li>
+              </ul>
+            </form>
+          </div>
         </div>
       </div>
     </>
