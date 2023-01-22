@@ -17,7 +17,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault()
 
-    emailjs
+    emailjs // Hidden in config.js, but desnt work without backend.
       .sendForm('ID', 'TEMPLATE', refForm.current, 'API')
       .then(
         () => {
