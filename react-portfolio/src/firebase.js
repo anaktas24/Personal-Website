@@ -2,10 +2,16 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { getStorage } from 'firebase/storage';
 import { getFirestore } from 'firebase/firestore/lite';
-import './fireconfig';
+import {apiKey, domain, projectId, storageBucket, messagingSenderId, appId, measurementId} from './fireconfig';
 
 const firebaseConfig = {
-  config
+  apiKey : apiKey,
+  domain : domain,
+  projectId :  projectId,
+  storageBucket :  storageBucket,
+  messagingSenderId :  messagingSenderId,
+  appId :appId,
+  measurementId : measurementId
 }
 
 
