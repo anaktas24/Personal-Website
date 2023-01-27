@@ -6,7 +6,7 @@ import {apiKey, domain, projectId, storageBucket, messagingSenderId, appId, meas
 
 const firebaseConfig = {
   apiKey : apiKey,
-  domain : domain,
+  authDomain : domain,
   projectId :  projectId,
   storageBucket :  storageBucket,
   messagingSenderId :  messagingSenderId,
